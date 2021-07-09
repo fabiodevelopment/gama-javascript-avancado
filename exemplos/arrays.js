@@ -46,6 +46,16 @@ const numerosPares = numeros.filter(numero => numero%2 ==0);
 console.log(numerosPares);
 console.log("\n");
 
+const produtos = ["geladeira", "fogao", "cama", "mesa"]
+
+//find
+
+const encontraCama = produtos.find(produto => produto === "cama")
+console.log(encontraCama)
+
+const encontraMesa = produtos.find(produto => produto === "mesa")
+console.log(encontraMesa)
+
 //SORT
 console.log("SORT");
 console.log("\n");
